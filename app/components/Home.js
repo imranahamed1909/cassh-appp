@@ -1,6 +1,6 @@
 "use client";
 import { Field, Form, Formik } from "formik";
-import { site } from "./config/index";
+import { site } from "../config/index";
 import { toast } from "react-toastify";
 import useMockLogin from "../hooks/useMockLogin";
 export default function Home({ adminId, posterId }) {
